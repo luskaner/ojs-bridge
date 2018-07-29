@@ -21,7 +21,7 @@ OJS Bridge allows any PHP applicattion to interface with an Open Journal Systems
 * MySQL 5.7.22
 * Apache 2.4.29 (_Ubuntu_)
 
-## Usage (_Derived from [mains_controller.php](samples/wordpress-wpmvc-plugin/app/controllers/mains_controllers.php)_)
+## Usage (_Derived from [mains_controller.php](samples/wordpress-wpmvc-plugin/app/controllers/mains_controller.php)_)
 
 ```php
 // Include the library
