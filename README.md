@@ -3,7 +3,7 @@
 
 ## Description
 
-OJS Bridge allows any PHP applicattion to interface with an Open Journal Systems (OJS) application
+OJS Bridge allows any PHP application to interface with an Open Journal Systems (OJS) application.
 
 ## Tested Compatibility
 
