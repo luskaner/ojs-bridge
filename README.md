@@ -9,12 +9,11 @@ OJS Bridge allows any PHP application to interface with an Open Journal Systems 
 
 ### Main software
 
-* Wordpress 4.9.7 ( :warning: **only with APD or runkit PHP extensions**):
-  * WP MVC 1.3.16  
-
 * Open Journal Systems:
   * 2.4.8-3 with PHP 5.6.37 (_5.6.37-1+ubuntu18.04.1+deb.sury.org+1_)
   * 3.1.1.2 with PHP 7.2.7 (_7.2.7-0ubuntu0.18.04.2_)
+* Wordpress 4.9.7 ( :warning: **only with APD or runkit PHP extensions**):
+  * WP MVC 1.3.16  
 
 ### Other software
 
