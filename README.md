@@ -23,16 +23,30 @@ OJS Bridge allows any PHP applicattion to interface with an Open Journal Systems
 
 ## Usage (_Derived from [mains_controller.php](samples/wordpress-wpmvc-plugin/app/controllers/mains_controllers.php)_)
 
+### General
+
 ```php
 // Include the library
 require_once(dirname(__FILE__) . '/libraries/ojs-bridge/ojs_bridge.inc.php');
-// Instantiate it
-$ojs_bridge = new OJSBridge(dirname(__FILE__) . '/path/to/OJS/directory');
+```
+
+### Modern
+
+```php
+// It will automatically call 'startOnce', then this function and finally, 'endOnce'
+OJSBridge::Instance()->doOnce(dirname(__FILE__) . '/path/to/OJS/directory', function($application){
+  // ...
+});
+```
+
+### Classic
+
+```php
 // Start the OJS related operations
-$ojs_bridge->start();
+OJSBridge::Instance()->startOnce('/path/to/OJS/directory');
 // ...
 // End the OJS related operations
-$ojs_bridge->end();
+OJSBridge::Instance()->endOnce();
 ```
 
 ## Samples
